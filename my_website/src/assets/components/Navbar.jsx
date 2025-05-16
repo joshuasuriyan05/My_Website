@@ -25,7 +25,7 @@ const navLink = [
 function Navbar () {
     return (
         <>
-        <nav className='bg-gray-900 text-white p-4'>
+        <nav className='bg-gray-900 text-white p-4 fixed right-0 left-0 bg-black'>
             <div className="container mx-auto flex items-center justify-between">
                 <h1 className="text-2xl font-bold">🚀 MyWebsite</h1>
                 <ul className="flex space-x-6">
